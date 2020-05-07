@@ -121,8 +121,6 @@ output = getmail()
 if len(output) != 0:
 	links = getorderurl(output)
 	paymentinfo, orderlist = getorderlist(links)
-	#paymentinfoprint(paymentinfo)
-	#kitchenorderprint(orderlist)
 	printfunctions(paymentinfo,orderlist)
 
 
